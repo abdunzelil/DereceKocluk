@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derece Koçluk</title>
+  <!-- Installing Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Import Fontawesome to use icons -->
+  <script src="https://kit.fontawesome.com/01cce51373.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Title Section -->
+  <section id="title">
+    <div class="titlecircle"></div>
+    <header>
+      <h2 id="alfish">Derece Koçluk</h2>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="#aboutUs">Hakkımızda</a></li>
+        <li><a href="#newestgameSection">Diğer Ürünler</a></li>
+        <li><a href="#contact">İletişim</a></li>
+        <li><a class="koclukalbutonu" href="#features">Koçluk Al</a></li>
+      </ul>
+    </header>
+
+
+    <div class="content">
+      <div class="textBox">
+        <h2>2024 YKS'ye <span>derecelerle hazırlan.</span></h2>
+        <p>Hemen başvuru formunu doldur ve koçluk almaya başla!</p>
+        <a href="#features">Koçluk Al</a>
+      </div>
+      <div class="imgBox">
+        <img src="images/nintendo.png" class="titleImage">
+      </div>
+    </div>
+
+    <ul class="thumb">
+      <li><img class="thumbXBoxConsole" src="images/xboxconsolex.png" onclick="imgSlider('images/xboxconsolex.png');changeCircleColor('#ef3a5d')"></li>
+      <li><img class="thumbNintendo" src="images/nintendo.png" onclick="imgSlider('images/nintendo.png');changeCircleColor('#ef3a5d')"></li>
+    </ul>
+
+
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-gamepad fa-4x"></i>
+        <h3>Güncel Takip</h3>
+        <p>Haftalık programınızı verip bırakmıyoruz. Her saniye güncellenen programlar sunuyoruz.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-user-shield fa-4x"></i>
+        <h3 class="elite-clientele">7/24 İletişim</h3>
+        <p>Koçlarınız her gün ve her saat bir mesaj uzağınızda sorunlarınıza cevap vermek için bekler.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-people-group fa-4x"></i>
+        <h3>Sağlam Ekip</h3>
+        <p>Türkiye genelinde her alanda yüksek dereceler yapan eğitmenlerle çalışıyoruz.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our newest game Section -->
+  <section id="newestgameSection">
+    <div class="content">
+      <div class="textBox">
+        <h2>Ders bitirme kamplarımızı gördünüz mü?</h2>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-regular fa-bag-shopping"></i> Mağazaya Git</button>
+      </div>
+      <div class="imgBoxNewestGame">
+        <img src="images/newestgame.png">
+      </div>
+    </div>
+  </section>
+
+  <!-- About us Section -->
+  <section id="aboutUs">
+    <div class="content">
+      <div class="imgBoxAboutUs">
+        <img src="images/aboutus.png">
+      </div>
+      <div class="textBox">
+        <h2>About us</h2>
+        <p> We are a team of game changer-game makers. For over 2 years, we are trying to improve
+          our users' gaming experience.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact&Finish Section -->
+  <section id="contact">
+    <h4>Get In Touch</h4>
+    <a class="footer-link" href="https://www.linkedin.com/company/alfgames/"><i class="footer-icon fa-brands fa-linkedin"></i></a>
+    <a class="footer-link" href="https://twitter.com/"><i class="footer-icon fa-brands fa-twitter"></i></a>
+    <a class="footer-link" href="https://www.instagram.con/"><i class="footer-icon fa-brands fa-instagram"></i></a>
+    <a class="footer-link" href="#"><i class=" footer-icon fa-solid fa-envelope"></i></a>
+    <p class="copyright">© Alfish Games 2022.</p>
+  </section>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
