@@ -222,14 +222,22 @@ header ul li a {
   background: #ef3a5d;
 }
 
-#aboutUs .textBox {
-  color: black;
+#aboutUs .textBox p {
+  color: #0e0e40;
+  font-weight: bold;
 }
+
+#aboutUs .textBox h2 {
+  color: #0e0e40;
+  font-weight: bold;
+}
+
 
 .imgBoxAboutUs img {
   max-width: 350px;
   padding-right: 50px;
 }
+
 
 /* Contact&Finish Section */
 
@@ -251,6 +259,7 @@ header ul li a {
 
 .copyright {
   margin-top: 70px;
+  color: white;
 }
 
 #contact h4 {
