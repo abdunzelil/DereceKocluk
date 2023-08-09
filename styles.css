@@ -125,7 +125,7 @@ header ul li a {
 }
 
 .content .imgBox img {
-  max-width: 640px;
+  max-width: 540px;
   margin-bottom: 80px;
 }
 
@@ -219,6 +219,7 @@ header ul li a {
 
 #aboutUs {
   padding: 5% 11% 7%;
+  background: #ef3a5d;
 }
 
 #aboutUs .textBox {
@@ -234,7 +235,7 @@ header ul li a {
 
 #contact {
   padding: 5% 11% 1%;
-  background: #1363DF;
+  background: #0e0e40;
   text-align: center;
 }
 
