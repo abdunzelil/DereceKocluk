@@ -510,6 +510,11 @@ header ul li a {
     clip-path: circle(400px at center bottom);
   }
 
+  /* Fiyatlandırma Responsivity */
+  #fiyatlandırma {
+    padding: 5% 0;
+  }
+
   /* Newset Game Section Responsivity */
 
   #newestgameSection .content {
